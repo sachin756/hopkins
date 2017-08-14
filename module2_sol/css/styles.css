@@ -31,7 +31,7 @@ p
 	font-family:helvetica;
 	font-size:23px;
 	background-color:yellow;
-	border:3px solid ;
+	border:1px solid black ;
 	position: absolute;
 	top:0px;
 	right:0px;
@@ -45,8 +45,7 @@ p
 	position:relative;
 	height:300px;
 	width:100%;
-	border:3px solid;
-	border-color:red;
+	border:1px solid black;
 	padding:10px;
 	background-color:skyblue;
 	margin:10px 10px 10px 10px;
@@ -56,8 +55,7 @@ p
 	position:relative;
 	height:300px;
 	width:100%;
-	border:3px solid;
-	border-color:red;
+	border:1px solid black;
 	padding:10px;
 	background-color:skyblue;
 	margin:10px 10px 10px 10px;
@@ -67,19 +65,21 @@ p
 	position:relative;
 	height:300px;
 	width:100%;
-	border:3px solid;
-	border-color:red;
+	border:1px solid black;
 	padding:10px;
 	background-color:skyblue;
 	margin:10px 10px 10px 10px;
 	background-image:url("sushi.jpg");
 }
+/*resposive design*/
+/*desktop view*/
 @media(min-width:992px){
 	.column{
 		width:31%;
 	}
 
 }
+/*tablet view*/
 @media(min-width:768px) and (max-width:991px ){
 	.cl-md-1{
 		width:47%;
@@ -98,6 +98,7 @@ p
 	margin-left:10px;
 	margin-right:10px;
 	}
+	/*mobile view*/
 @media(max-width:767px){
 	.column{
 		width:100%;
