@@ -30,7 +30,6 @@ p
 #head{
 	font-family:helvetica;
 	font-size:23px;
-	background-color:yellow;
 	border:1px solid black ;
 	position: absolute;
 	top:0px;
@@ -41,6 +40,15 @@ p
 	margin-bottom:6px;
 
 }
+#id1{
+	background-color:yellow;
+}
+#id2{
+	background-color:red;
+}
+#id3{
+	background-color:blue
+}
 #chicken{
 	position:relative;
 	height:300px;
@@ -49,7 +57,6 @@ p
 	padding:10px;
 	background-color:skyblue;
 	margin:10px 10px 10px 10px;
-	background-image:url("chicken.jpg");
 }
 #cap{
 	position:relative;
@@ -59,7 +66,6 @@ p
 	padding:10px;
 	background-color:skyblue;
 	margin:10px 10px 10px 10px;
-	background-image:url("cap.jpg");
 }
 #sushi{
 	position:relative;
@@ -69,7 +75,6 @@ p
 	padding:10px;
 	background-color:skyblue;
 	margin:10px 10px 10px 10px;
-	background-image:url("sushi.jpg");
 }
 /*resposive design*/
 /*desktop view*/
